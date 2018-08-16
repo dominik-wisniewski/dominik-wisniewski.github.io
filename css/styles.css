@@ -21,12 +21,12 @@ main {
 
 main > .intro {
 	font-family: 'Roboto Mono', monospace;
-	font-size: 15vw;
+	font-size: 5vw;
 	font-weight: 600;
 }
 
 main > .tagline {
-	font-size: 10rem;
-	margin: 10vw 0;
+	font-size: 3vw;
+	margin: 3vw 0;
 	font-weight: 100;
 }
