@@ -28,6 +28,10 @@ html {
 	}
 }
 
+.icons-social i {
+	font-size: 3em;
+}
+
 main {
 	display: flex;
 	flex-direction: column;
