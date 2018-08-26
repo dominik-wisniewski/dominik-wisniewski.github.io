@@ -20,42 +20,45 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	
+	
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/velocity.min.js"></script>
+	<script src="js/velocity.ui.min.js"></script>
+	<script src="js/main.js"></script>
 
 </head>
 <body height=100%>
 	<main>
-	
-	<ul id="menu">
-		<li data-menuanchor="About" class="active"><a href="#About">ABOUT</a></li>
-		<li data-menuanchor="Development"><a href="#Development">DEVELOPMENT>
-		<li data-menuanchor="Software testing"><a href="#Testing">QUALITY ASSURANCE</a></li>
-	</ul>
 
-	<div id="fullpage">
-		<div class="section " id="section0">
-			<div class="intro">
+	<section class="cd-section visible">
+		<div>
 			<h1>Dominik Wisniewski</h1>
-			<p>Database developer || Software testing</p>
-			</div>
-			<div class="icons-social">
-			  <a target="_blank" href="https://stackoverflow.com/users/story/6234225"><i class="fab fa-stack-overflow"></i></a>
-			</div>
-			
+			<h2>SOftware development & testing</h2>
 		</div>
-		<div class="section" id="section1">
-			<div class="intro">
-				<h1>Development</h1>
-				<p>Oracle & SQL Server database software development</p>
-			</div>
+		<div class="icons-social">
+		  <a target="_blank" href="https://stackoverflow.com/users/story/6234225"><i class="fab fa-stack-overflow"></i></a>
+		</div>
+	</section>
 
+	<section class="cd-section">
+		<div>
+			<h2>Section 2</h2>
 		</div>
-		<div class="section" id="section2">
-			<div class="intro">
-				<h1>Software testing</h1>
-				<p>Manual & automated software testing</p>
-			</div>
+	</section>
+
+	<section class="cd-section">
+		<div>
+			<h2>Section 3</h2>
 		</div>
-	</div>
+	</section>
+
+
+	<nav>
+		<ul class="cd-vertical-nav">
+			<li><a href="#0" class="cd-prev inactive">Next</a></li>
+			<li><a href="#0" class="cd-next">Prev</a></li>
+		</ul>
+	</nav> <!-- .cd-vertical-nav -->
 		
                 <!--
 		<div class="intro">Dominik Wisniewski</div>
