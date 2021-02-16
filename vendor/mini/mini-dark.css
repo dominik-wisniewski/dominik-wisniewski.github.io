@@ -1116,7 +1116,7 @@ nav * {
   padding: var(--universal-padding) calc(1.5 * var(--universal-padding));
 }
 
-nav .sticky {
+nav.sticky {
   position: -webkit-sticky;
   position: sticky;
   z-index: 1101;
