@@ -1116,6 +1116,12 @@ nav * {
   padding: var(--universal-padding) calc(1.5 * var(--universal-padding));
 }
 
+nav .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1101;
+}
+
 nav a, nav a:visited {
   display: block;
   color: var(--nav-link-color);
