@@ -1064,7 +1064,7 @@ header {
   background: var(--header-back-color);
   color: var(--header-fore-color);
   border-bottom: 0.0625rem solid var(--header-border-color);
-  margin: --universal-margin;
+  margin-bottom: var(--universal-margin);
   padding: calc(var(--universal-padding) / 4) 0;
   white-space: nowrap;
   overflow-x: auto;
