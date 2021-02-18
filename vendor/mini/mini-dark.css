@@ -642,7 +642,7 @@ a:hover, a:focus {
 :root {
   --card-back-color: #111;
   --card-fore-color: #fdfdfd;
-  --card-border-color: #aaa;
+  --card-border-color: black;
 }
 
 .card {
@@ -1055,7 +1055,7 @@ button.large, [type="button"].large, [type="submit"].large, [type="reset"].large
   --footer-link-color: #0277bd;
   --drawer-back-color: #111;
   --drawer-hover-back-color: #222;
-  --drawer-border-color: #aaa;
+  --drawer-border-color: black;
   --drawer-close-color: #f0f0f0;
 }
 
