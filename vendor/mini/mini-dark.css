@@ -1269,7 +1269,7 @@ footer.sticky {
 
 @media screen and (min-width: 768px) {
   [type="checkbox"].drawer:not(.persistent) + * {
-    position: static;
+    position: sticky; /* static; */
     height: 100%;
     z-index: 1100;
   }
